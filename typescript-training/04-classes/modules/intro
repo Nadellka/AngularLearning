@@ -1,0 +1,6 @@
+/*->Typescript supports concept of modules.
+->A module can export classes, functions, variables etc.
+->Another file can import classes, functions, variables etc from a module
+
+Driver.ts(will import the customer class) -> Customer.ts(will export the customer class)
+*/

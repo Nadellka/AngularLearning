@@ -1,0 +1,38 @@
+/*Basic Structure:
+
+class{
+    //properties are public by defualt
+    //constructors . We use the constructor keyword. this keyword is used to refer to the properties of this class.
+    //getter / setter methods
+
+}
+
+Access Modifiers:
+public: property accessible to all classes
+private: property accessible in current class
+protected: property accessbile in current class and subclasses
+
+
+To avoid creating .js files on compilation errors use:  tsc --noEmitOnError Customer.ts
+
+//Accessors: Typescript has get/set accessors which is only supported in ES5 and higher
+You have to set a compiler flag to compile the tag: tsc --target ES5 --noEmitOnError Customer.ts
+
+Since there are too many compiler flags, we can actually set these flags in tsconfig.json file.
+tsconfig.json file can be used to set compiler flags as well as project settings which will be placed in the root of the project directory.
+-> You can generate a template for this file by using command: tsc --init
+-> Also if you have tsconfig.json file, u can just compile the code using tsc command without providing the file name that has to be compiled.
+
+
+//Typescript offers shortscuts for defining constructors and also the variables which defines as well as assigns properties whch reduces boiler plate code
+class Customer{
+    constructor(private _firstName:string, private _lastName:string){
+
+    }
+}
+
+
+//clean build command
+tsc --build --clean
+
+*/
