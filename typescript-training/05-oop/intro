@@ -1,0 +1,5 @@
+-> TypeScript only supports single inheritance. However, we can implement multiple interfaces.
+-> extends is the keyword
+
+-> We can't create an object of abstract classes
+-> Abstarct classes will have abstract methods which should be implemented by the concrete sub-classes.
